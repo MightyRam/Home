@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Button } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -18,6 +20,9 @@ function App() {
         >
           Button
         </button>
+        <div>
+          <Button color="danger">Danger!</Button>
+        </div>
       </header>
     </div>
   );
