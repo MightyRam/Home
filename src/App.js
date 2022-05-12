@@ -30,7 +30,34 @@ function App() {
           Button
         </button>
         <div>
-          <Button color="danger">Danger!</Button>
+          <Button
+            color="danger"
+            href="https://www.youtube.com/watch?v=-EjWbb8aYpI"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Don't touch
+          </Button>
+        </div>
+        <div>
+          <Button
+            onClick={() => {
+              alert("Hello! Have nice day :)");
+            }}
+          >
+            Hello
+          </Button>
+          <Button variant="outlined" disabled>
+            Disabled
+          </Button>
+          <Button
+            variant="outlined"
+            href="https://github.com/MightyRam"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            GitHub
+          </Button>
         </div>
       </header>
       <ToastContainer autoClose={3000} hideProgressBar />
