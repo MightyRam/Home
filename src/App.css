@@ -38,10 +38,28 @@
 }
 
 .my-button {
-  background-color: #ffff00;
+  background-color: black;
   padding: 10px;
-  border-radius: 8px;
   border: 3px solid;
-  border-color: black;
-  color: black;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border-color: red;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.exit-button {
+  color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border: 2px solid;
+  width: 90px;
+  display: block;
+  font-weight: bold;
+  border-color: red;
+  letter-spacing: 1px;
 }

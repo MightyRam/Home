@@ -27,7 +27,7 @@ function App() {
             setToggle(!toggle);
           }}
         >
-          Button
+          Toggle
         </button>
         <div>
           <Button
@@ -58,6 +58,18 @@ function App() {
           >
             GitHub
           </Button>
+        </div>
+        <div>
+          <button
+            className="exit-button"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "http://google.com";
+            }}
+          >
+            Exit
+          </button>
         </div>
       </header>
       <ToastContainer autoClose={3000} hideProgressBar />
