@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #120349;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,10 +36,8 @@
     transform: rotate(360deg);
   }
 }
-
 .my-button {
   background-color: black;
-  padding: 10px;
   border: 3px solid;
   height: 125px;
   width: 125px;
@@ -49,17 +47,4 @@
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
-}
-.exit-button {
-  color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  border: 2px solid;
-  width: 90px;
-  display: block;
-  font-weight: bold;
-  border-color: red;
-  letter-spacing: 1px;
 }
