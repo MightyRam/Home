@@ -5,7 +5,7 @@ export const AppBar = () => {
     <div>
       <Nav tabs>
         <NavItem>
-          <NavLink href="/">Home</NavLink>
+          <NavLink href="#/">Home</NavLink>
         </NavItem>
 
         <NavItem>
