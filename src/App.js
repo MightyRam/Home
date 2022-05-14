@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -11,20 +11,19 @@ import { AboutPage } from "./components/AboutPage";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <AppBar />
-        <div className="App-header">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/Contact" element={<ContactPage />} />
-            <Route path="/About" element={<AboutPage />} />
-          </Routes>
-        </div>
+    <div className="App">
+      <AppBar />
 
-        <ToastContainer autoClose={3000} hideProgressBar />
+      <div className="App-header">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Contact" element={<ContactPage />} />
+          <Route path="/About" element={<AboutPage />} />
+        </Routes>
       </div>
-    </Router>
+
+      <ToastContainer autoClose={3000} hideProgressBar />
+    </div>
   );
 }
 
