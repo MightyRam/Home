@@ -9,10 +9,10 @@ export const AppBar = () => {
         </NavItem>
 
         <NavItem>
-          <NavLink href="/#/Contact">Contact</NavLink>
+          <NavLink href="#/Contact">Contact</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/#/About">About</NavLink>
+          <NavLink href="#/About">About</NavLink>
         </NavItem>
       </Nav>
     </div>
