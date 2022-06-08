@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(164, 206, 235);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  margin-left: 500px;
+}
+
+form {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-left: 500px;
+}
+
+.sheepimg {
+  border: 1px solid black;
+  max-width: 500px;
+  padding: 2px;
+  margin: 8px;
+  border-radius: 10px;
+  margin-left: 500px;
+}
