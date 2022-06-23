@@ -24,7 +24,7 @@ export const HomePage = () => {
           Sheep are a domesticated animal, usually bred for their fleece, meat,
           and their milk. Hundreds of different breeds exist, and they are
           considered one of the most important of all farming animals, with an
-          estimated one billion in existence today.
+          estimated one billion in existence today...
         </p>
 
         <p>
