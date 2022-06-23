@@ -45,7 +45,7 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="/Home"
+            href="#/Home"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -94,7 +94,7 @@ const ResponsiveAppBar = () => {
                     <Link
                       style={{
                         textDecoration: "none",
-                        color: "black",
+                        color: "white",
                       }}
                       to={`/${page}`}
                     >
@@ -110,7 +110,7 @@ const ResponsiveAppBar = () => {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="#/Home"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },

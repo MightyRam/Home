@@ -28,9 +28,9 @@ export const ContactPage = () => {
         </div>
         <div>
           <select id="subject">
-            <option>1</option>
-            <option>1</option>
-            <option>1</option>
+            <option>Info about sheep</option>
+            <option>You want to buy sheep</option>
+            <option>Other</option>
           </select>
         </div>
         <div>
