@@ -1,7 +1,7 @@
 {
-  "name": "demo-app",
+  "name": "Home",
   "version": "0.1.0",
-  "homepage": "https://mightyram.github.io/demo-app",
+  "homepage": "https://mightyram.github.io/Home",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
